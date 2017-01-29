@@ -1,3 +1,4 @@
+let book = 'https://www.gitbook.com/book/rangle-io/ngcourse2/details';
 let osName : string = 'android';
 console.log(`Os Name is ${osName}`);
 
