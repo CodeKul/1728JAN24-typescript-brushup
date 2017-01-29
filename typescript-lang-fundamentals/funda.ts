@@ -10,6 +10,6 @@ function thisIsVersion(version : number) {
 }
 console.log(`How to compile -> tsc yourFile.ts`);
 console.log(`How to Run -> node yourFile.js`);
-
+console.log(`How to Run -> node yourFile.js`);
 whatIsOs();
 thisIsVersion(2);
