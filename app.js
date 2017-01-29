@@ -10,3 +10,4 @@ btnOkay.onclick = () => {
 function myClick() {
     console.log('hello');
 }
+
