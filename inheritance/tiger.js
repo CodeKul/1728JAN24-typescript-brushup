@@ -13,6 +13,10 @@ var Tiger = (function (_super) {
     Tiger.prototype.isBengol = function () {
         return false;
     };
+    Tiger.prototype.walk = function () {
+        _super.prototype.walk.call(this);
+        console.log("Tiger is walking");
+    };
     return Tiger;
 }(animal_1.Animal));
 exports.Tiger = Tiger;

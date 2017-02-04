@@ -7,3 +7,4 @@ var tiger = new tiger_1.Tiger();
 tiger.walk();
 console.log("\n    Is Bengol tiger " + tiger.isBengol() + "\n");
 var animalTiger = new tiger_1.Tiger();
+animalTiger.walk();

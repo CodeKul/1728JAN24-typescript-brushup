@@ -12,3 +12,5 @@ console.log(`
 `);
 
 let animalTiger : Animal = new Tiger(); 
+animalTiger.walk();
+Animal.classMethod();

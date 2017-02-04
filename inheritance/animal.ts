@@ -7,6 +7,11 @@ export class Animal {
     }
 
     walk() {
+        console.log(`Animal is walking`);
         this.legs++;
+    }
+
+    static classMethod(){
+        console.log();
     }
 }
