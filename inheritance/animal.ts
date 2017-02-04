@@ -1,10 +1,7 @@
 export class Animal {
 
     private legs : number;
-
-    constructor() {
-
-    }
+    constructor() {}
 
     walk() {
         console.log(`Animal is walking`);
